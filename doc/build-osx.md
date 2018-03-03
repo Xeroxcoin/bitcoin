@@ -45,7 +45,7 @@ Build Bitcoin Core
 
 1. Clone the bitcoin source code and cd into `bitcoin`
 
-        git clone https://github.com/bitcoin/bitcoin
+        git clone https://github.com/Xeroxcoin/xeroxcoin
         cd bitcoin
 
 2.  Build bitcoin-core:
@@ -69,7 +69,7 @@ Build Bitcoin Core
 Running
 -------
 
-Bitcoin Core is now available at `./src/bitcoind`
+Bitcoin Core is now available at `./src/xeroxcoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
@@ -77,7 +77,7 @@ Before running, it's recommended you create an RPC configuration file.
 
     chmod 600 "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
 
-The first time you run bitcoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run xeroxcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -86,9 +86,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/bitcoind -daemon # Starts the bitcoin daemon.
-    ./src/bitcoin-cli --help # Outputs a list of command-line options.
-    ./src/bitcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/xeroxcoind -daemon # Starts the bitcoin daemon.
+    ./src/xeroxcoin-cli --help # Outputs a list of command-line options.
+    ./src/xeroxcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

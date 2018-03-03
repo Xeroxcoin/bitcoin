@@ -25,7 +25,7 @@ make
 make install # optional
 ```
 
-This will build bitcoin-qt as well if the dependencies are met.
+This will build xeroxcoin-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -129,7 +129,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitcoin-qt executable will be
+Once these are installed, they will be found by configure and a xeroxcoin-qt executable will be
 built by default.
 
 
@@ -155,7 +155,7 @@ libqrencode (optional) can be installed with:
 
 Notes
 -----
-The release is built with GCC and then "strip bitcoind" to strip the debug
+The release is built with GCC and then "strip xeroxcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -267,7 +267,7 @@ Setup and Build Example: Arch Linux
 This example lists the steps necessary to setup and build a command line only, non-wallet distribution of the latest changes on Arch Linux:
 
     pacman -S git base-devel boost libevent python
-    git clone https://github.com/bitcoin/bitcoin.git
+    git clone https://github.com/Xeroxcoin/xeroxcoin.git
     cd bitcoin/
     ./autogen.sh
     ./configure --disable-wallet --without-gui --without-miniupnpc

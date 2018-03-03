@@ -7,11 +7,11 @@ performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/bitcoin/bitcoin/issues>
+  <https://github.com/Xeroxcoin/xeroxcoin/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://bitcoincore.org/en/list/announcements/join/>
+  <https://xeroxcoin.org/en/list/announcements/join/>
 
 Compatibility
 ==============

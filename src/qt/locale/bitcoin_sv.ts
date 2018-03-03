@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Högerklicka för att ändra adressen eller etiketten.</translation>
+        <translation>Högerklicka för att ändra adressen eller etiketten</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -62,12 +62,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Bitcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Bitcoins.</translation>
+        <source>These are your Xeroxcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Xeroxcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar Xeroxcoins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Bitcoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your Xeroxcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina Xeroxcoin adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -169,8 +169,8 @@ Var vänlig och försök igen.</translation>
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA BITCOIN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XEROXCOINS&lt;/b&gt;!</source>
+        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA XEROXCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -181,7 +181,7 @@ Var vänlig och försök igen.</translation>
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your xeroxcoins from being stolen by malware infecting your computer.</source>
         <translation>%1 kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -233,7 +233,7 @@ Var vänlig och försök igen.</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>XeroxcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signera &amp;meddelande...</translation>
@@ -339,8 +339,8 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Skicka bitcoins till en Bitcoin-adress</translation>
+        <source>Send coins to a Xeroxcoin address</source>
+        <translation>Skicka xeroxcoins till en Xeroxcoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -363,8 +363,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Xeroxcoin</source>
+        <translation>Xeroxcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -391,12 +391,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Bitcoin-adress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Xeroxcoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Xeroxcoin-adress för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Bitcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Xeroxcoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med specificerade Xeroxcoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -415,8 +415,8 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för tabbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Begär betalning (genererar QR-koder och bitcoin-URI)</translation>
+        <source>Request payments (generates QR codes and xeroxcoin: URIs)</source>
+        <translation>Begär betalning (genererar QR-koder och xeroxcoin-URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,16 +427,16 @@ Var vänlig och försök igen.</translation>
         <translation>Visa listan av använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Öppna en bitcoin: URI eller betalningsbegäran</translation>
+        <source>Open a xeroxcoin: URI or payment request</source>
+        <translation>Öppna en xeroxcoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to Xeroxcoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till Xeroxcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Xeroxcoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -479,8 +479,8 @@ Var vänlig och försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible Xeroxcoin command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Xeroxcoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,8 +549,8 @@ Var vänlig och försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Bitcoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. Xeroxcoin can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. Xeroxcoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -743,8 +743,8 @@ Var vänlig och försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Xeroxcoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Xeroxcoin-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -852,8 +852,8 @@ Var vänlig och försök igen.</translation>
         <translation>Eftersom detta är första gången programmet startas får du välja var %1 skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>Denna första synkronisering är väldigt krävande, och kan påvisa hårdvaruproblem med din dator som tidigare inte visats sig. Varje gång du kör %1, kommer nerladdningen att fortsätta där den avslutades.</translation>
+        <source>%1 will download and store a copy of the Xeroxcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 kommer att ladda ner och spara en kopia av Xeroxcoin blockkedjan. Åtminstone %2GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -862,26 +862,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Use a custom data directory:</source>
         <translation>Använd en anpassad datakatalog:</translation>
-    </message>
-    <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
-    </message>
-    <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Minst %1 GB data kommer att lagras i den här katalogen, och den växer över tiden.</translation>
-    </message>
-    <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
-    </message>
-    <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 kommer att hämta och lagra en kopia av Bitcoin-blockkedjan.</translation>
-    </message>
-    <message>
-        <source>The wallet will also be stored in this directory.</source>
-        <translation>Plånboken lagras också i den här katalogen.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -907,12 +887,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med bitcoin nätverket enligt detaljer nedan.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Försöka sig på att spendera bitcoins som påverkas av transaktioner som ännu inte visas kommer inte bli accepterade av nätverket. </translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the xeroxcoin network, as detailed below.</source>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan ditt din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med xeroxcoin nätverket, enligt detaljer nedan.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1005,12 +981,16 @@ Var vänlig och försök igen.</translation>
         <translation>Antalet skript&amp;verifikationstrådar</translation>
     </message>
     <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Proxyns IP-adress (t.ex.  IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <source>Accept connections from outside</source>
+        <translation>Acceptera anslutningar utifrån</translation>
     </message>
     <message>
-        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Visas, om den angivna standard-SOCKS5-proxyn används för att nå noder via den här nätverkstypen.</translation>
+        <source>Allow incoming connections</source>
+        <translation>Acceptera inkommande anslutningar</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Proxyns IP-adress (t.ex.  IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
@@ -1021,16 +1001,12 @@ Var vänlig och försök igen.</translation>
         <translation>Tredjeparts URL:er (t.ex. en blockutforskare) som finns i transaktionstabben som ett menyval i sammanhanget. %s i URL:en ersätts med tansaktionshashen. Flera URL:er är separerade med vertikala streck |.</translation>
     </message>
     <message>
+        <source>Third party transaction URLs</source>
+        <translation>Tredjeparts transaktions-URL:er</translation>
+    </message>
+    <message>
         <source>Active command-line options that override above options:</source>
         <translation>Aktiva kommandoradsalternativ som ersätter alternativen ovan:</translation>
-    </message>
-    <message>
-        <source>Open the %1 configuration file from the working directory.</source>
-        <translation>Öppna konfigurationsfilen %1 från arbetskatalogen.</translation>
-    </message>
-    <message>
-        <source>Open Configuration File</source>
-        <translation>Öppna Konfigurationsfil</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1069,16 +1045,16 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the Xeroxcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Xeroxcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Bitcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the Xeroxcoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Xeroxcoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1101,6 +1077,10 @@ Var vänlig och försök igen.</translation>
         <translation>Används för att nå noder via:</translation>
     </message>
     <message>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>Visas, om den angivna standard-SOCKS5-proxyn används för att nå noder via den här nätverkstypen.</translation>
+    </message>
+    <message>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
@@ -1113,12 +1093,24 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till Bitcoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the Xeroxcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till Xeroxcoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <translation>Använd separat SOCKS5-proxy för att nå noder via dolda tjänster i Tor:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
         <translation>&amp;Fönster</translation>
+    </message>
+    <message>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>&amp;Göm ikonen från systemfältet.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Göm systemfältsikonen</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1185,22 +1177,6 @@ Var vänlig och försök igen.</translation>
         <translation>Programmet kommer att stängas. Vill du fortsätta?</translation>
     </message>
     <message>
-        <source>Configuration options</source>
-        <translation>Konfigurationsalternativ</translation>
-    </message>
-    <message>
-        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <translation>Konfigurationsfilen används för att ange avancerade användaralternativ som överskrider GUI-inställningarna. Dessutom kommer alla kommandoradsalternativ att överskrida denna konfigurationsfil.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Fel</translation>
-    </message>
-    <message>
-        <source>The configuration file could not be opened.</source>
-        <translation>Konfigurationsfilen kunde inte öppnas.</translation>
-    </message>
-    <message>
         <source>This change would require a client restart.</source>
         <translation>Denna ändring kräver en klientomstart.</translation>
     </message>
@@ -1216,8 +1192,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Xeroxcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Xeroxcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1291,8 +1267,8 @@ Var vänlig och försök igen.</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan inte starta bitcoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start xeroxcoin: click-to-pay handler</source>
+        <translation>Kan inte starta xeroxcoin: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1307,8 +1283,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan inte tolkas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Xeroxcoin address or malformed URI parameters.</source>
+        <translation>URI kan inte tolkas! Detta kan orsakas av en ogiltig Xeroxcoin-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1386,20 +1362,8 @@ Var vänlig och försök igen.</translation>
         <translation>Nod/Tjänst</translation>
     </message>
     <message>
-        <source>NodeId</source>
-        <translation>Nod-ID</translation>
-    </message>
-    <message>
         <source>Ping</source>
         <translation>Ping</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Skickad</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Mottagen</translation>
     </message>
 </context>
 <context>
@@ -1409,8 +1373,8 @@ Var vänlig och försök igen.</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ange en Bitcoin-adress (t.ex. %1)</translation>
+        <source>Enter a Xeroxcoin address (e.g. %1)</source>
+        <translation>Ange en Xeroxcoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1469,28 +1433,8 @@ Var vänlig och försök igen.</translation>
         <translation><numerusform>%n år</numerusform><numerusform>%n år</numerusform></translation>
     </message>
     <message>
-        <source>%1 B</source>
-        <translation>%1 B</translation>
-    </message>
-    <message>
-        <source>%1 KB</source>
-        <translation>%1 KB</translation>
-    </message>
-    <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
-    </message>
-    <message>
-        <source>%1 GB</source>
-        <translation>%1 GB</translation>
-    </message>
-    <message>
         <source>%1 didn't yet exit safely...</source>
         <translation>%1 avslutades inte ännu säkert...</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>okänd</translation>
     </message>
 </context>
 <context>
@@ -1594,10 +1538,6 @@ Var vänlig och försök igen.</translation>
         <translation>Minnesåtgång</translation>
     </message>
     <message>
-        <source>&amp;Reset</source>
-        <translation>&amp;Återställ</translation>
-    </message>
-    <message>
         <source>Received</source>
         <translation>Mottagen</translation>
     </message>
@@ -1690,10 +1630,6 @@ Var vänlig och försök igen.</translation>
         <translation>Pingväntetid</translation>
     </message>
     <message>
-        <source>Min Ping</source>
-        <translation>Min Ping</translation>
-    </message>
-    <message>
         <source>Time Offset</source>
         <translation>Tidsförskjutning</translation>
     </message>
@@ -1712,6 +1648,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>&amp;Network Traffic</source>
         <translation>&amp;Nätverkstrafik</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Rensa</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1766,12 +1706,32 @@ Var vänlig och försök igen.</translation>
         <translation>Välkommen till %1 RPC-konsolen.</translation>
     </message>
     <message>
-        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Använd upp- och ner-pilarna för att navigera i historiken, och %1 för att rensa skärmen.</translation>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Använd upp- och ner-pilarna för att navigera i historiken, och &lt;b&gt;Ctrl-L&lt;/b&gt; för att rensa skärmen.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Skriv &lt;b&gt;help&lt;/b&gt; för en översikt av alla kommandon.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
         <translation>Nätverksaktivitet inaktiverad</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
@@ -1821,8 +1781,16 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Bitcoinnätverket.</translation>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Återanvänd en av tidigare använda mottagningsadresser. Återanvändning av adresser har både säkerhets och integritetsbrister. Använd inte samma mottagningsadress om du inte gör om samma betalningsbegäran.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Xeroxcoin network.</source>
+        <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Xeroxcoinnätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1921,7 +1889,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Belopp</translation>
+        <translation>Belopp:</translation>
     </message>
     <message>
         <source>Label</source>
@@ -1964,7 +1932,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(inget belopp begärd)</translation>
+        <translation>(ingen summa begärd)</translation>
     </message>
     <message>
         <source>Requested</source>
@@ -2034,10 +2002,6 @@ Var vänlig och försök igen.</translation>
         <translation>Välj...</translation>
     </message>
     <message>
-        <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>Varning: Avgiftsberäkning är för närvarande inte möjlig.</translation>
-    </message>
-    <message>
         <source>collapse fee-settings</source>
         <translation>Fäll ihop avgiftsinställningarna</translation>
     </message>
@@ -2054,8 +2018,12 @@ Var vänlig och försök igen.</translation>
         <translation>Göm</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på bitcoin transaktioner än nätverket kan bearbeta.</translation>
+        <source>total at least</source>
+        <translation>totalt minst</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for xeroxcoin transactions than the network can process.</source>
+        <translation>Att betala endast den minsta avgiften är bara bra så länge det är mindre transaktionsvolym än utrymme i blocken. Men tänk på att det kan hamna i en aldrig bekräftar transaktion när det finns mer efterfrågan på xeroxcoin transaktioner än nätverket kan bearbeta.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2072,6 +2040,14 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Smartavgiften är inte initierad än. Detta tar vanligen några block...)</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>snabb</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2138,10 +2114,6 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera växel</translation>
     </message>
     <message>
-        <source>%1 (%2 blocks)</source>
-        <translation>%1 (%2 block)</translation>
-    </message>
-    <message>
         <source>%1 to %2</source>
         <translation>%1 till %2</translation>
     </message>
@@ -2201,17 +2173,17 @@ Var vänlig och försök igen.</translation>
         <source>Payment request expired.</source>
         <translation>Betalningsbegäran löpte ut.</translation>
     </message>
+    <message numerus="yes">
+        <source>%n block(s)</source>
+        <translation><numerusform>%n block</numerusform><numerusform>%n block</numerusform></translation>
+    </message>
     <message>
         <source>Pay only the required fee of %1</source>
         <translation>Betala endast den nödvändiga avgiften på %1</translation>
     </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
-    </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Varning: Felaktig Bitcoinadress</translation>
+        <source>Warning: Invalid Xeroxcoin address</source>
+        <translation>Varning: Felaktig Xeroxcoinadress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2253,8 +2225,8 @@ Var vänlig och försök igen.</translation>
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoinadress att sända betalning till</translation>
+        <source>The Xeroxcoin address to send the payment to</source>
+        <translation>Xeroxcoinadress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2273,8 +2245,8 @@ Var vänlig och försök igen.</translation>
         <translation>Radera denna post</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att få mindre bitcoins än du angivit i belopp-fältet. Om flera mottagare valts kommer avgiften delas jämt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less xeroxcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att få mindre xeroxcoins än du angivit i belopp-fältet. Om flera mottagare valts kommer avgiften delas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2297,8 +2269,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Ett meddelande som bifogades bitcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Bitcoinnätverket.</translation>
+        <source>A message that was attached to the xeroxcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Xeroxcoin network.</source>
+        <translation>Ett meddelande som bifogades xeroxcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Xeroxcoinnätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2342,12 +2314,12 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Signera Meddelande</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoins som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive xeroxcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot xeroxcoins som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoinadress att signera meddelandet med</translation>
+        <source>The Xeroxcoin address to sign the message with</source>
+        <translation>Xeroxcoinadress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2378,7 +2350,7 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Xeroxcoin address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -2402,12 +2374,12 @@ Var vänlig och försök igen.</translation>
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanrum, flikar, etc. exakt) och signatur nedan för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva undertecknade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att undertecknad tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoinadressen som meddelandet signerades med</translation>
+        <source>The Xeroxcoin address the message was signed with</source>
+        <translation>Xeroxcoinadressen som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Bitcoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Xeroxcoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Xeroxcoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2419,7 +2391,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klicka "Signera Meddelande" för att generera en signatur</translation>
+        <translation>Klicka "Signera Meddelande" för att få en signatur</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2500,7 +2472,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/nedkopplad</translation>
+        <translation>%1/nerkopplad</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
@@ -2529,10 +2501,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Status</source>
         <translation>Status</translation>
-    </message>
-    <message>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>,har inte lyckats sända än</translation>
     </message>
     <message>
         <source>Date</source>
@@ -2570,10 +2538,6 @@ Var vänlig och försök igen.</translation>
         <source>label</source>
         <translation>etikett</translation>
     </message>
-    <message>
-        <source>Credit</source>
-        <translation>Kredit</translation>
-    </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation><numerusform>mognar om %n mer block</numerusform><numerusform>mognar om %n fler block</numerusform></translation>
@@ -2587,20 +2551,8 @@ Var vänlig och försök igen.</translation>
         <translation>Belasta</translation>
     </message>
     <message>
-        <source>Total debit</source>
-        <translation>Total debet</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Total kredit</translation>
-    </message>
-    <message>
         <source>Transaction fee</source>
         <translation>Transaktionsavgift</translation>
-    </message>
-    <message>
-        <source>Net amount</source>
-        <translation>Nettobelopp</translation>
     </message>
     <message>
         <source>Message</source>
@@ -2617,10 +2569,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Transaction total size</source>
         <translation>Transaktionens totala storlek</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>Utmatningsindex</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -2682,7 +2630,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n fler block</numerusform></translation>
+        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -2808,10 +2756,6 @@ Var vänlig och försök igen.</translation>
         <translation>Det här året</translation>
     </message>
     <message>
-        <source>Range...</source>
-        <translation>Period...</translation>
-    </message>
-    <message>
         <source>Received with</source>
         <translation>Mottagen med</translation>
     </message>
@@ -2832,16 +2776,16 @@ Var vänlig och försök igen.</translation>
         <translation>Övriga</translation>
     </message>
     <message>
+        <source>Enter address or label to search</source>
+        <translation>Ange en adress eller etikett att söka efter</translation>
+    </message>
+    <message>
         <source>Min amount</source>
         <translation>Minsta belopp</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
         <translation>Avbryt transaktionen</translation>
-    </message>
-    <message>
-        <source>Increase transaction fee</source>
-        <translation>Öka transaktionsavgift</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2928,10 +2872,6 @@ Var vänlig och försök igen.</translation>
         <translation>Transaktionshistoriken sparades utan problem till %1.</translation>
     </message>
     <message>
-        <source>Range:</source>
-        <translation>Räckvidd:</translation>
-    </message>
-    <message>
         <source>to</source>
         <translation>till</translation>
     </message>
@@ -2940,7 +2880,7 @@ Var vänlig och försök igen.</translation>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>&amp;Enhet att visa belopp i. Klicka för att välja annan enhet.</translation>
+        <translation>Enhet att visa belopp i. Klicka för att välja annan enhet.</translation>
     </message>
 </context>
 <context>
@@ -2954,35 +2894,7 @@ Var vänlig och försök igen.</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Bitcoins</translation>
-    </message>
-    <message>
-        <source>Increasing transaction fee failed</source>
-        <translation>Ökning av avgiften lyckades inte</translation>
-    </message>
-    <message>
-        <source>Do you want to increase the fee?</source>
-        <translation>Vill du öka avgiften?</translation>
-    </message>
-    <message>
-        <source>Current fee:</source>
-        <translation>Nuvarande avgift:</translation>
-    </message>
-    <message>
-        <source>Increase:</source>
-        <translation>Öka:</translation>
-    </message>
-    <message>
-        <source>New fee:</source>
-        <translation>Ny avgift:</translation>
-    </message>
-    <message>
-        <source>Can't sign transaction.</source>
-        <translation>Kan ej signera transaktion.</translation>
-    </message>
-    <message>
-        <source>Could not commit transaction</source>
-        <translation>Kunde inte skicka transaktion</translation>
+        <translation>Skicka Xeroxcoins</translation>
     </message>
 </context>
 <context>
@@ -3021,7 +2933,7 @@ Var vänlig och försök igen.</translation>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>xeroxcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Inställningar:</translation>
@@ -3041,6 +2953,14 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
+        <translation>Acceptera anslutningar utifrån (förvalt: 1 om ingen -proxy eller -connect/-noconnect)</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
+        <translation>Anslut endast till angivna nod(er); -noconnect eller -connect=0 ensam för att inaktivera automatiska anslutningar</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3083,8 +3003,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Xeroxcoin Core</source>
+        <translation>Xeroxcoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3109,6 +3029,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Ta bort alla plånbokstransaktioner och återskapa bara dom som är en del av blockkedjan genom att ange -rescan vid uppstart</translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <translation>Fel vid laddning av %s: Du kan inte aktivera HD på en existerande icke-HD plånbok</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3175,12 +3099,8 @@ Var vänlig och försök igen.</translation>
         <translation>Varning: Vi verkar inte helt överens med våra peers! Du kan behöva uppgradera, eller andra noder kan behöva uppgradera.</translation>
     </message>
     <message>
-        <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
-        <translation>Hurvida du vill spara mempoolen vid avstängning och ladda på omstart (förval: %u)</translation>
-    </message>
-    <message>
-        <source>%d of last 100 blocks have unexpected version</source>
-        <translation>%d av de senaste 100 blocken har oväntad version</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Du måste återskapa databasen med -reindex-chainstate för att ändra -txindex</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
@@ -3193,10 +3113,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; Kan vara:</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Acceptera anslutningar utifrån (förvalt: 1 om ingen -proxy eller -connect)</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
@@ -3283,6 +3199,10 @@ Var vänlig och försök igen.</translation>
         <translation>Fel vid inläsningen av %s: Plånboken kräver en senare version av %s</translation>
     </message>
     <message>
+        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
+        <translation>Fel vid laddning av %s: Du kan inte avaktivera HD på en redan existerande HD plånbok</translation>
+    </message>
+    <message>
         <source>Error loading block database</source>
         <translation>Fel vid inläsning av blockdatabasen</translation>
     </message>
@@ -3311,12 +3231,12 @@ Var vänlig och försök igen.</translation>
         <translation>Initieringschecken fallerade. %s stängs av.</translation>
     </message>
     <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Ogiltigt belopp för -%s=&lt;belopp&gt;:'%s'</translation>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ogiltig -onion adress:'%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ogiltigt belopp för -discardfee=&lt;amount&gt;:'%s'</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>Ogiltigt belopp för -%s=&lt;belopp&gt;:'%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
@@ -3325,10 +3245,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
         <translation>Håll minnespoolen över transaktioner under &lt;n&gt; megabyte (förvalt: %u)</translation>
-    </message>
-    <message>
-        <source>Loading P2P addresses...</source>
-        <translation>Laddar P2P adresser...</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
@@ -3379,6 +3295,10 @@ Var vänlig och försök igen.</translation>
         <translation>Sätt databasens cachestorlek i megabyte (%d till %d, förvalt: %d)</translation>
     </message>
     <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Sätt maximal blockstorlek i byte (förvalt: %d)</translation>
+    </message>
+    <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Ange plånboksfil (inom datakatalogen)</translation>
     </message>
@@ -3403,10 +3323,6 @@ Var vänlig och försök igen.</translation>
         <translation>Argumentet -tor hittades men stöds inte, använd -onion.</translation>
     </message>
     <message>
-        <source>Upgrading UTXO database</source>
-        <translation>Uppgraderar UTXO-databasen</translation>
-    </message>
-    <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: %u)</translation>
     </message>
@@ -3421,6 +3337,14 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Verifying blocks...</source>
         <translation>Verifierar block...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Verifierar plånboken...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Plånbok %s ligger utanför datakatalogen %s</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
@@ -3441,6 +3365,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Bind till given adress och vitlista klienter som ansluter till den. Använd [värd]:port notation för IPv6</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Bind till angiven adress för att lyssna på JSON-RPC-anslutningar. Använd [värd]:port-format for IPv6. Detta alternativ kan anges flera gånger (förvalt: bind till alla gränssnitt)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3479,8 +3407,16 @@ Var vänlig och försök igen.</translation>
         <translation>Slumpa autentiseringen för varje proxyanslutning. Detta möjliggör Tor ström-isolering (förvalt: %u)</translation>
     </message>
     <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Sätt den maximala storleken av hög-prioriterade/låg-avgifts transaktioner i byte (förvalt: %d)</translation>
+    </message>
+    <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Transaktionen är för liten att skicka efter det att avgiften har dragits</translation>
+    </message>
+    <message>
+        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
+        <translation>Använd hierarkisk deterministisk nyckel generering (HD) efter BIP32. Har bara effekt under plånbokens skapande/första användning.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3507,10 +3443,6 @@ Var vänlig och försök igen.</translation>
         <translation>Anslut genom SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
-        <translation>Fel vid laddning av %s: Du kan inte avaktivera HD på en redan existerande HD plånbok</translation>
-    </message>
-    <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Fel vid läsning från databas, avslutar.</translation>
     </message>
@@ -3521,14 +3453,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Information</source>
         <translation>Information</translation>
-    </message>
-    <message>
-        <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Ogiltig -onion adress eller värdnamn: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>Ogiltig -proxy adress eller värdnamn: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
@@ -3565,6 +3489,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Skicka trace-/debuginformation till terminalen istället för till debug.log</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Sänd transaktioner som nollavgiftstransaktioner om möjligt (förvalt: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3619,10 +3547,6 @@ Var vänlig och försök igen.</translation>
         <translation>Användarnamn för JSON-RPC-anslutningar</translation>
     </message>
     <message>
-        <source>Verifying wallet(s)...</source>
-        <translation>Verifierar plånbok(er)...</translation>
-    </message>
-    <message>
         <source>Warning</source>
         <translation>Varning</translation>
     </message>
@@ -3633,10 +3557,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
         <translation>Ska allt göras i endast block-läge (förval: %u)</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Du måste återskapa databasen med -reindex för att ändra -txindex</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -3659,6 +3579,10 @@ Var vänlig och försök igen.</translation>
         <translation>Tillåt DNS-sökningar för -addnode, -seednode och -connect</translation>
     </message>
     <message>
+        <source>Loading addresses...</source>
+        <translation>Laddar adresser...</translation>
+    </message>
+    <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = spara tx metadata t.ex. kontoägare och betalningsbegäransinformation, 2 = släng tx metadata)</translation>
     </message>
@@ -3673,14 +3597,6 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
         <translation>Samma antal byte per sigop i transaktioner som vi reläar och bryter (förvalt: %u)</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
-        <translation>Fel vid laddning av %s: Du kan inte aktivera HD på en existerande icke-HD plånbok</translation>
-    </message>
-    <message>
-        <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
-        <translation>Fel vid inläsningen av plånbok %s. -wallet parametern kan bara innehålla ett filnamn (inte en sökväg).</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
@@ -3705,6 +3621,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Skriv ut avlusningsinformation (förvalt: %u, att ange &lt;category&gt; är frivilligt)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
+        <translation>Sök efter klientadresser med DNS sökningen, om det finns otillräckligt med adresser (förvalt: 1 om inte -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
@@ -3759,24 +3679,16 @@ Var vänlig och försök igen.</translation>
         <translation>Sök alltid efter klientadresser med DNS sökningen (förvalt: %u)</translation>
     </message>
     <message>
-        <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
-        <translation>Fel vid inläsningen av plånbok %s. -wallet filnamn måste var en vanlig fil.</translation>
-    </message>
-    <message>
-        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
-        <translation>Fel vid inläsningen av plånbok %s. Dublett -wallet filnamn anges.</translation>
-    </message>
-    <message>
-        <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
-        <translation>Fel vid inläsningen av plånbok %s. Ogiltiga tecken i -wallet filnamn.</translation>
-    </message>
-    <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>Hur många block att kontrollera vid uppstart (förvalt: %u, 0 = alla)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>Inkludera IP-adresser i debugutskrift (förvalt: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ogiltig -proxy adress: '%s'</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
@@ -3880,11 +3792,15 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med bitcoins</translation>
+        <translation>Otillräckligt med xeroxcoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>
         <translation>Laddar blockindex...</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Lägg till en nod att koppla upp mot och försök att hålla anslutningen öppen</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
@@ -3893,6 +3809,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Cannot downgrade wallet</source>
         <translation>Kan inte nedgradera plånboken</translation>
+    </message>
+    <message>
+        <source>Cannot write default address</source>
+        <translation>Kan inte skriva standardadress</translation>
     </message>
     <message>
         <source>Rescanning...</source>
